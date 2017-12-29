@@ -10,6 +10,10 @@
 				{
 					"signature"	"NextBotManager::OnCharacterVomitedUpon"
 				}
+				"windows"
+				{
+					"signature"	"NextBotManager::OnCharacterVomitedUpon"
+				}
 			}
 		}
 		"Signatures"
@@ -18,6 +22,8 @@
 			{
 				"library"   "server"
 				"linux"     "@_ZN14NextBotManager22OnCharacterVomitedUponEP20CBaseCombatCharacter"
+				"windows"   "\x55\x8B\xEC\x8B\x45\x08\x83\xEC\x0C\x56\x57"
+				/* 55 8B EC 8B 45 08 83 EC 0C 56 57 */
 			}
 		}
 		"Offsets"
